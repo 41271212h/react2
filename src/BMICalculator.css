@@ -1,0 +1,31 @@
+/* src/BMICalculator.css */
+.bmi-calculator {
+  text-align: center;
+}
+
+button {
+  padding: 8px 12px; /* Adjust padding for smaller buttons */
+  margin: 10px 0; /* Add vertical margin between buttons */
+  border: 1px solid transparent; /* Set a valid border property */
+  border-radius: 10px;
+  background-color: #2a9d8f;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21867a; /* Darker shade for hover effect */
+}
+
+.button-container {
+  display: flex; /* Use flexbox to arrange buttons */
+  flex-direction: column; /* Arrange buttons in a column */
+  justify-content: center; /* Center align buttons */
+  margin-top: 10px; /* Space above the buttons */
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #2a9d8f;
+}

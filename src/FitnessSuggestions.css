@@ -1,0 +1,40 @@
+/* src/FitnessSuggestions.css */
+.fitness-suggestions {
+    text-align: center;
+    margin: 20px; /* Added margin for spacing */
+  }
+  
+  .suggestion-display {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f4f8;
+  }
+  
+  button {
+    padding: 8px 12px; /* Adjust padding */
+    margin: 5px; /* Add margin */
+    border: none;
+    border-radius: 5px;
+    background-color: #2a9d8f;
+    color: white;
+    cursor: pointer;
+    font-size: 14px; /* Adjust font size */
+  }
+  
+  button:hover {
+    background-color: #21867a; /* Darker shade for hover effect */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center; /* Center buttons */
+    align-items: center; /* Align items vertically */
+  }
+  
+  select {
+    margin: 10px; /* Add margin for spacing */
+    padding: 5px; /* Add padding for better touch */
+  }
+    

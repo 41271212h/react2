@@ -1,0 +1,56 @@
+Tracker.css 
+
+.tracker {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: center; /* Align labels and inputs to the left */
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block; /* Make label take the full width */
+}
+
+input, select {
+  width: 50%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #2a9d8f;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50%; 
+}
+
+button:hover {
+  background-color: #863f21;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+.error-message {
+    color: #e30a0a; /* Red color for error messages */
+    margin-top: 10px;
+  }
