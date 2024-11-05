@@ -1,14 +1,17 @@
-HomePage.css
+/* Homepage.css */
+
 .container {
   text-align: center;
-  margin: 100px;
-  padding: 100px;
-  background-color: #f0f4f8; /* Light background color */
-  border-radius: 100px;
+  margin: 100px auto; /* Centering the container */
+  padding: 50px; /* Reduced padding for better fit */
+  background-color: #ffffff; /* Light background color */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 700px; /* Limiting the width for better readability */
 }
 
 .links {
-  margin: 30px ;
+  margin: 30px;
 }
 
 .link-button {
@@ -18,7 +21,7 @@ HomePage.css
   border: none;
   border-radius: 5px;
   background-color: #2a9d8f; /* Button color */
-  color: white;
+  color: #ffffff;
   text-decoration: none; /* Remove underline */
   font-size: 16px;
 }
@@ -30,5 +33,5 @@ HomePage.css
 .creator-name {
   margin-top: 30px;
   font-size: 18px;
-  color: #555; /* Dark gray for contrast */
+  color: #000; /* Dark gray for contrast */
 }

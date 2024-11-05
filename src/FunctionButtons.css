@@ -1,4 +1,5 @@
-/* src/FunctionButtons.css */
+FunctionButtons.css
+
 .button-container {
     display: flex;
     flex-direction: column; /* Change to column layout */

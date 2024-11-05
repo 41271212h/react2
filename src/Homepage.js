@@ -1,23 +1,25 @@
-// src/components/HomePage.js
 import React from 'react';
-import { Link } from 'react-router-dom';
-import './HomePage.css'; // Add a CSS file for styling
+import './Homepage.css'; // Import the CSS for styling
 
-function HomePage() {
+const Homepage = () => {
   return (
     <div className="container">
-      <h1>Welcome to the Fitness App</h1>
-      <p>Your go-to tool for tracking health and fitness goals!</p>
+      <h1>Welcome to Your Health and Fitness App</h1>
+      <p>Explore our features to improve your well-being.</p>
+      
       <div className="links">
-        <Link to="/bmi-calculator" className="link-button">BMI Calculator</Link>
-        <Link to="/tracker" className="link-button">Calorie, Protein & Fat Tracker</Link>
-        <Link to="/fitness-suggestions" className="link-button">Physical Fitness Suggestions</Link>
+        <a href="/bmi-calculator" className="link-button">BMI Calculator</a>
+        <a href="/tracker" className="link-button">Tracker</a>
+        <a href="/fitness-suggestions" className="link-button">Fitness Suggestions</a>
+        <a href="/recipe" className="link-button">Recipes for Health</a>
+        <a href="/weeklyplan" className="link-button">Weekly Workout Plan</a>
       </div>
-      <div className="creator-name"> 
-        <h5>Made by Patrick Tsai</h5>
+
+      <div className="creator-name">
+        <p>Created by Patrick Tsai, Maverick Soebroto and Nai-i Ou</p>
       </div>
     </div>
   );
-}
+};
 
-export default HomePage;
+export default Homepage;

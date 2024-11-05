@@ -1,4 +1,3 @@
-// src/BMICalculator.js
 import React, { useState } from 'react';
 import './BMICalculator.css'; // Assuming you have a CSS file for styling
 

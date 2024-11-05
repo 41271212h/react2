@@ -1,4 +1,3 @@
-// src/Tracker.js
 import React, { useState } from 'react';
 import './Tracker.css'; // Assuming you have a CSS file for styling
 
