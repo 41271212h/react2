@@ -1,34 +1,40 @@
+/* src/BMICalculator.css */
 .bmi-calculator {
-  text-align: center; /* Center align text and content */
-  margin: 40px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
 }
-
-.button-container {
-  display: flex; /* Use flexbox to arrange buttons */
-  flex-direction: column; /* Arrange buttons in a column */
-  justify-content: center; /* Center align buttons */
-  align-items: center; /* Center align buttons horizontally */
-  margin-top: 10px; /* Space above the buttons */
+/* src/BMICalculator.css */
+.bmi-calculator {
+  text-align: center;
 }
 
 button {
-  border: none; /* Set a valid border property */
-  border-radius: 50px; /* Make border-radius more reasonable */
+  padding: 8px 12px; /* Adjust padding for smaller buttons */
+  margin: 0 5px; /* Add horizontal margin between buttons */
+  border: none;
+  border-radius: 5px;
   background-color: #2a9d8f;
   color: white;
-  cursor: pointer; /* Change cursor to pointer for buttons */
-  margin: 10px 0; /* Space between buttons */
-  padding: 20px 40px; /* Add padding to the buttons */
-  font-size: 16px; /* Adjust font size for better readability */
+  cursor: pointer;
 }
 
 button:hover {
   background-color: #21867a; /* Darker shade for hover effect */
 }
 
+.button-container {
+  display: flex; /* Use flexbox to align buttons in a row */
+  justify-content: center; /* Center align buttons */
+  margin-top: 10px; /* Space above the buttons */
+}
+
 #result {
   margin-top: 20px;
   font-weight: bold;
-  text-align: center;
   color: #2a9d8f;
 }

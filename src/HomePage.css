@@ -2,12 +2,12 @@
 
 .container {
   text-align: center;
-  margin: 100px auto; /* Centering the container */
+  margin: 50px auto; /* Centering the container */
   padding: 50px; /* Reduced padding for better fit */
   background-color: #ffffff; /* Light background color */
   border-radius: 20px; /* Rounded corners */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  max-width: 700px; /* Limiting the width for better readability */
+  max-width: 500px; /* Limiting the width for better readability */
 }
 
 .links {

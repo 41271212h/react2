@@ -1,26 +1,24 @@
-FunctionButtons.css
-
 .button-container {
-    display: flex;
-    flex-direction: column; /* Change to column layout */
-    align-items: center; /* Center the buttons horizontally */
-    margin: 20px 0;
-  }
-  
-  .button-box {
-    background-color: #2a9d8f;
-    color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s;
-    width: 150px; /* Set a width for the box */
-    margin-bottom: 15px; /* Add space between boxes */
-  }
-  
-  .button-box:hover {
-    transform: translateY(-3px); /* Slight lift on hover */
-  }
-  
+  display: flex;
+  flex-direction: column; /* Change to column layout */
+  align-items: center; /* Center the buttons horizontally */
+  margin: 20px ;
+}
+
+.button-box {
+  background-color: #2a9d8f;
+  color: #fff;
+  padding: 8px 16px; /* Reduced padding to make buttons smaller */
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+  width: auto; /* Auto width to adjust based on content */
+  margin-bottom: 100px; /* Reduced space between buttons */
+  font-size: 16px; /* Smaller font size */
+}
+
+.button-box:hover {
+  transform: translateY(-3px); /* Slight lift on hover */
+}
