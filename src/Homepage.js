@@ -1,11 +1,11 @@
 import React from 'react';
-import './Homepage.css'; // Import the CSS for styling
+import './Homepage.css'; // Correct import for CSS file
 
 const Homepage = () => {
   return (
     <div className="container">
       <h1>Welcome to the Fitness App</h1>
-      <p>Your go-to tool for tracking health and fitness goal!</p>
+      <p>Your go-to tool for tracking health and fitness goals!</p>
       
       <div className="links">
         <a href="/bmi-calculator" className="link-button">BMI Calculator</a>
